@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ArthurStrange
-- 👀 I’m interested in backend n frontend(full stack) n GAMING.....oh! maybe WEB
+- 👀 I’m interested in backend n frontend(full stack) n GAMING.....oh! maybe n WEB
 - 🌱 I’m currently learning in CHSPU 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me - thearthurorlov@mail.ru

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Style Corleone</title>
+<!--stylesheet-->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<!--fav=icon-------->
+<link rel="shortcut icon" href="https://sun9-37.userapi.com/impf/yElLWa_ewT0ScZoTTC-29Kj9vSZ0qyehrcOPbQ/WaFxoI6MeUg.jpg?size=1232x1232&quality=95&sign=517db15a5ffd6920742c99c1088b0cac&type=album"/>
+<!--using-FontAwesome-For-Icons---->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js"crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation----------------------------------->
+    <nav>
+ 
+        <!--social-link-and-phone-number----------->
+        <div class="social-call">
+            <!--social-links-------->
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <!--phone-number---->
+            <div class="phone">
+                <span>Call +7(965)964-04-34</span>
+            </div>
+        </div>
+ 
+    <!--menu-bar--------------------------------------------->
+        <div class="navigation">
+            <!--logo----->
+            <a href="#" class="logo">
+                <img src="https://o.remove.bg/downloads/8d3a79f8-c2ca-4fc6-ab52-8cfa46a5f25f/Снимок_экрана__43_-removebg-preview.png" width="372" height="216">
+            </a>
+            <!--menu----->
+            <ul class="menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Одежда</a></li>
+                <li><a href="#">Обувь</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Магазин</a></li>
+            </ul>
+            <div class="right-menu">
+                <!--search-->
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+                <!--user-->
+                <a href="#">
+                    <i class="far fa-user"></i>
+                </a>
+                <!--cart-icon-->
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #ffffff;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+    z-index: 100;
+}
+.social-call{
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    margin: 0px 10px;
+    color: rgba(0,0,0,0.7);
+    font-size: 0.9rem;
+}
+.phone{
+    color: rgba(0,0,0,0.7);
+    margin: 30px;
+    font-size: 0.9rem;
+}
+.social a:hover{
+    color: #ff0000;
+    transition: all ease 0.3s;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+}
+.logo img{
+    height: 250px;
+}
+.menu{
+ 
+    display: flex;
+}   
+.menu li{
+    position: relative;
+    margin: 30px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+.menu li a{
+    color: #555555;
+ 
+}
+.right-menu a{
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.7);
+}
+.sale-lable {
+    width: 55px;
+    height: 23px;
+    background-color: #f76b6a;
+    color: #ffffff;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+.sale-lable::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-bottom: 5px solid transparent;
+    border-left: 3px solid transparent;
+    border-top: 7px solid #f76b6a;
+    border-right: 5px solid transparent;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+}
